@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Made it</h1>
+   
         <a href="calendar.php">Check our Latest Events</a>
     </div>
 
