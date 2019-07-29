@@ -1,4 +1,6 @@
 {
+    "name": "OCPC",
+    "description": "OCPC Youth Group",
     "require": {
         "google/apiclient": "^2.0"
     }
