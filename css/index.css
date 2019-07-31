@@ -1,6 +1,49 @@
 body{
     background-color: goldenrod;
 }
+
+#logo {
+    background: #ccc;
+    width: 150px;
+    height: 70px;
+  }
+  
+  .navbar-toggler {
+    margin-top: 15px;
+  }
+
+#splash{
+    background-image: url(/img/splash.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    display: table;
+}
+
+.btn{
+    margin: 30px 0px;
+    border: solid whitesmoke 3px;
+    border-radius: 9px;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#welcome{
+    font-family: 'Righteous', cursive;
+    font-size: 4rem;
+    text-align:center; 
+    color:whitesmoke;
+
+}
+
+
 /* -------------------------------------
     RESPONSIVE AND MOBILE FRIENDLY STYLES
 ------------------------------------- */
@@ -12,6 +55,15 @@ body{
     body{
         background-color: burlywood;
     }
+    #splash{
+        background-image: url(/img/splashXS.jpg);
+    }
+    .btn{
+        margin: 20px 0px;
+    }
+    #welcome{
+        font-size: 2.5rem;
+    }
 }
 
 /*
@@ -20,6 +72,12 @@ body{
 @media (min-width: 576px) and (max-width: 767.98px) {
     body{
         background-color:sandybrown;
+    }
+    #splash{
+        background-image: url(/img/splashS.jpg);
+    }
+    #welcome{
+        font-size: 3.5rem;
     }
 }
 
@@ -39,6 +97,21 @@ body{
     body{
         background-color: goldenrod;
     }
+    .navbar {
+        height: 130px;
+     }
+    #logo {
+      width: 260px;
+      height: 120px;
+      position: relative;
+      bottom: -20px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+      padding-right: 75px;
+    }
+    #nav-left {
+      padding-left: 30px;
+    }
 }
 
 /*
@@ -47,6 +120,21 @@ body{
 @media (min-width: 1200px) {
     body{
         background-color: salmon;
+    }
+    .navbar {
+        height: 130px;
+     }
+    #logo {
+      width: 260px;
+      height: 120px;
+      position: relative;
+      bottom: -20px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+      padding-right: 75px;
+    }
+    #nav-left {
+      padding-left: 30px;
     }
     .events{
         background-color: red;

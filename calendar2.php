@@ -13,17 +13,36 @@
   <div class="container">
     <div class="row">
         <div id="eventTemplate" style="display: none">
-            <div class="col-6 col-md-4 event">
+            <div class="event">
                 <h3 class="evTitle">Event Title</h3>
                 <div class="evDate">June 13th 2019 at 7:30 to 7:50pm</div>
                 <div class="evLocation">Location of the Place</div>
                 <div class="evDescription">Description of the events</div>
             </div>
         </div>
+        <div id="eventTemplate" style="">
+            <div class="event card col-6" style="width: 18rem;">
+                <img src="#" class="card-img-top" alt="Event #1">
+                <div class="card-body">
+                    <h3 class="evTitle card-title">Event#1</h3>
+                </div>
+            </div>
+        </div>
    </div>
 
     <div id="events" class="row">
      
+    </div>
+
+    <div class="row">
+        <div class="col-6 card" style="width: 18rem; margin: 0px 20px;">
+            <img src="#" class="card-img-top" alt="Event #1">
+            <div class="card-body">
+                <h5 class="card-title">Event # 1</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
     </div>
   
     <!--Add buttons to initiate auth sequence and sign out-->
